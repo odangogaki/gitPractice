@@ -20,6 +20,11 @@ git merge issue1
 //取り込みが終わったのでissue1ブランチを消す
 git branch -d issue1
 
+//issue2、issue3ブランチを作成し、issue2ブランチに移動
+git branch issue2
+git branch issue3
+git checkout issue2
+
 
 These are common Git commands used in various situations:
 
