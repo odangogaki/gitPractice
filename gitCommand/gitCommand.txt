@@ -7,6 +7,13 @@ gitのローカルリポジトリとして設定するコマンド。
 gitで競合を発生させる（User1）
 gitで競合を発生させる（User2）
 gitでの競合を解決する
+gitでブランチissue1を作成し、issue1ブランチにcheckoutし、変更をコミットする
+//gitのブランチを確認
+git branch
+//gitのブランチissue1を作成
+git branch issue1
+//ブランチissue1に移動
+git checkout
 
 These are common Git commands used in various situations:
 
