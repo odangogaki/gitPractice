@@ -35,10 +35,9 @@ git checkout issue2
 git merge issue2 //うまくいく
 git merge issue3 //競合（Merge conflictが起こり、gitが差分を挿入する）
 //修正し、commitする
-git commit -m 'mergeでのconflictを修正し、masterでcommit'
+git commit -m 'mergeでのconflictを修正し、masterでcommit
 //test1ブランチとtest2ブランチを作成する
-
-
+//test2ブランチでtest1ブランチと競合を発生させる
 
 These are common Git commands used in various situations:
 
