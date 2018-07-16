@@ -5,6 +5,8 @@ gitのローカルリポジトリとして設定するコマンド。
 .gitフォルダ以下のファイル、ディレクトリがgitの管理下にできる。
 
 gitで競合を発生させる（User1）
+gitで競合を発生させる（User2）
+gitでの競合を解決する
 
 These are common Git commands used in various situations:
 
