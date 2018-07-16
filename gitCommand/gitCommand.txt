@@ -29,7 +29,7 @@ git branch issue2
 git branch issue3
 git checkout issue2
 //もう一度branchの並列作業を行う（テストissue3)
-
+//ブランチでの並列作業で競合を発生させる(issue3)
 
 These are common Git commands used in various situations:
 
