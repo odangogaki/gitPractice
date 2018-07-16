@@ -30,6 +30,12 @@ git branch issue3
 git checkout issue2
 //もう一度branchの並列作業を行う（テストissue3)
 //branchの並列作業で競合を発生させる(issue2)
+//ブランチでの並列作業で競合を発生させる(issue3)
+//git mergeでマスターブランチに取り込む
+git merge issue2 //うまくいく
+git merge issue3 //競合（Merge conflictが起こり、gitが差分を挿入する）
+//修正し、commitする
+git commit -m 'mergeでのconflictを修正し、masterでcommit'
 
 These are common Git commands used in various situations:
 
