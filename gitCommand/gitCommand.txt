@@ -1,8 +1,10 @@
-git init
+﻿git init
 
-git�̃��[�J�����|�W�g���Ƃ��Đݒ肷��R�}���h�B
-.git�t�H���_�������B
-.git�t�H���_�ȉ��̃t�@�C���A�f�B���N�g����git�̊Ǘ����ɂł���B
+gitのローカルリポジトリとして設定するコマンド。
+.gitフォルダが作られる。
+.gitフォルダ以下のファイル、ディレクトリがgitの管理下にできる。
+
+gitで競合を発生させる（User2）
 
 These are common Git commands used in various situations:
 
