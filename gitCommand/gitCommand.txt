@@ -24,8 +24,6 @@ git commit -m "コミットメッセージ"
 git checkout issue3
 git add .
 git commit -m "コミットメッセージ"
-
-
 //issue2、issue3ブランチを作成し、issue2ブランチに移動
 git branch issue2
 git branch issue3
