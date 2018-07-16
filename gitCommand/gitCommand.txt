@@ -19,6 +19,12 @@ git checkout master
 git merge issue1
 //取り込みが終わったのでissue1ブランチを消す
 git branch -d issue1
+//issue2ブランチにcommitを行った後、issue3ブランチにcheckout
+git commit -m "コミットメッセージ"
+git checkout issue3
+git add .
+git commit -m "コミットメッセージ"
+
 
 //issue2、issue3ブランチを作成し、issue2ブランチに移動
 git branch issue2
