@@ -36,6 +36,9 @@ git merge issue2 //うまくいく
 git merge issue3 //競合（Merge conflictが起こり、gitが差分を挿入する）
 //修正し、commitする
 git commit -m 'mergeでのconflictを修正し、masterでcommit'
+//test1ブランチとtest2ブランチを作成する
+
+
 
 These are common Git commands used in various situations:
 
