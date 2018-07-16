@@ -14,6 +14,12 @@ git branch
 git branch issue1
 //ブランチissue1に移動
 git checkout
+//ブランチissue1をmasterブランチに取り込む
+git checkout master
+git merge issue1
+//取り込みが終わったのでissue1ブランチを消す
+git branch -d issue1
+
 
 These are common Git commands used in various situations:
 
