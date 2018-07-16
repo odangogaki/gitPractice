@@ -35,10 +35,16 @@ git checkout issue2
 git merge issue2 //うまくいく
 git merge issue3 //競合（Merge conflictが起こり、gitが差分を挿入する）
 //修正し、commitする
-git commit -m 'mergeでのconflictを修正し、masterでcommit'
+git commit -m 'mergeでのconflictを修正し、masterでcommit
 //test1ブランチとtest2ブランチを作成する
-
-
+//test2ブランチでtest1ブランチと競合を発生させる
+//pull = fetch + merge
+//コミットを捨てる reset モードによって影響範囲が変わる
+モード名  HEADの位置  インデックス  ワークツリー
+soft     変更する    変更しない    変更しない
+mixed    変更する    変更する      変更しない
+hard     変更する    変更する      変更する
+//cherry-pick 別のブランチから指定したコミットをコピーして、現在のブランチに取り込む
 
 These are common Git commands used in various situations:
 
